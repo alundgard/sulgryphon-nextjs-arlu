@@ -86,7 +86,7 @@ const HorizontalCard = ({
             }
 
             {(header) &&
-              <Heading id={headerId} className={twMerge("text-m5", hideHeading && "sr-only")}>{header}</Heading>
+              <Heading id={headerId} className={twMerge("text-m4", hideHeading && "sr-only")}>{header}</Heading>
             }
 
             {(body) &&
