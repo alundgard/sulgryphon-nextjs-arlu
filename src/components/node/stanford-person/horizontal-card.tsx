@@ -32,11 +32,11 @@ const HorizontalPersonCard = ({node, h3Heading, ...props}: Props) => {
           </div>
         </div>
       }
-      <div className="flex flex-col gap-[4.5rem]">
+      <div className="flex flex-col gap-[4rem]">
         <div className="flex flex-col gap-[1rem]">
           <Link href={node.path}
                 className="underline hocus:no-underline active:no-underline text-black hocus:text-brick-dark active:text-digital-red">
-            <HeadingElement className="type-2">{node.title}</HeadingElement>
+            <HeadingElement className="type-1">{node.title}</HeadingElement>
           </Link>
 
           {(node.suPersonFullTitle) &&
