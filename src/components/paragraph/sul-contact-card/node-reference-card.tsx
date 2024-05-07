@@ -46,10 +46,10 @@ const NodeReferenceCard = ({paragraph}: Props) => {
             {paragraph.sulContactBranch?.path ? (
               <Link href={paragraph.sulContactBranch?.path}
                     className="underline text-white hocus:text-illuminating-dark hocus:no-underline active:text-digital-red-light">
-                <h2 className="type-1 rs-mb-1">{paragraph.sulContactBranch?.title}</h2>
+                <h2 className="type-2 rs-mb-1">{paragraph.sulContactBranch?.title}</h2>
               </Link>
             ) : (
-              <h2 className="type-1 rs-mb-1 text-white">{paragraph.sulContactTitle}</h2>
+              <h2 className="type-2 rs-mb-1 text-white">{paragraph.sulContactTitle}</h2>
             )}
 
             <div className="leading-tight md:rs-pr-2 text-white">
